@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic_dev - Portfolio</title>
+    <link rel="stylesheet" href="requirements/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- GSAP library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+
+<body>
+    <div class="home">
+        <div class="nav">
+            <div class="logo">
+                MarineX
+            </div>
+            <div class="nav-right">
+            <i class="ri-moon-line" id="themeBtn"></i>
+            <div class="list">
+                <ul>
+                    <a href="google.com" class="nav-link">Home </a>
+                    <a href="google.com" class="nav-link">About Us</a>
+                    <a href="google.com" class="nav-link">Contacts</a>
+                    <a href="google.com" class="nav-link">Projects</a>
+                </ul>
+            </div>
+            <i class="ri-menu-3-fill hide" id="dropDown" onclick="alert('the site under construction')"></i>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <h1><span class="color">I'm</span> MarineX<span class="color">,</span><br> A <span
+                        class=" color auto-type"></span></h1>
+                <br>
+                <p class="myAbout">HI,I'm a dev of nodejs , python and bash.Dont forget to follow me in social medias</p>
+                <br>
+                <a href="https://www.google.com/" class="btn">Visit Github </a>
+                <br>
+                <div class="social">
+                    <a href="https://www.github.com/cosmic-dev1"><i class="ri-github-line"></i></a>
+                    <a href="https://about.gitlab.com/"><i class="ri-gitlab-line"></i></a>
+                    <a href="https://mail.google.com"><i class="ri-mail-line"></i></a>
+                    <a href="https://discord.com/users/1185135057032204315"><i class="ri-discord-line"></i></a>
+                </div>
+            </div>
+
+            <div class="right">
+                <img   src="requirements/img/boy.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+    <script src="typed.js"></script>
+    <script src="requirements/js/script.js"></script>
+
+    <script>
+        // GSAP animations
+        gsap.from(".logo", { duration: 1.5, opacity: 0, y: -50, ease: "power4.out" });
+        gsap.from("#themeBtn", { duration: 1.5, opacity: 0, y: -50, stagger: 0.2, ease: "power4.out" });
+        gsap.from(".nav-link", { duration: 1.5, opacity: 0, y: -50, stagger: 0.2, ease: "power4.out" });
+        gsap.from(".ri-menu-3-fill", { duration: 1.5, opacity: 0, x: 50, ease: "power4.out" });
+        gsap.from(".left", { duration: 1.5, opacity: 0, x: -50, ease: "power4.out" });
+        gsap.from(".right", { duration: 1.5, opacity: 0, x: 50, ease: "power4.out" });
+        gsap.from(".social a", { duration: 1.5, opacity: 0, y: 50, stagger: 0.2, ease: "power4.out" });
+    </script>
+</body>
+
+</html>
