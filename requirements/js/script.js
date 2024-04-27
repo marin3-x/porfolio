@@ -1,26 +1,3 @@
-// function showAlert() {
-//     alert("the website is under constraction");
-// }
-// var typed = new Typed(".auto-type", {
-//     strings: ["web dev.", "web3 dev.", "app dev."],
-//     typeSpeed: 100,
-//     backSpeed: 100,
-//     loop: true
-// });
-// let curTheme = "light";
-// let themeBtn = document.querySelector("#themeBtn");
-// let a = document.querySelectorAll('.nav-link');
-// console.log(a);
-// themeBtn.addEventListener("click", () => {
-//     if (curTheme === "light") {
-//         curTheme = "dark";
-//         document.querySelector("body").setAttribute("class", "dark");
-//         a.classList.add(".a-dark");
-//     } else { curTheme = "light";
-//     document.querySelector("body").setAttribute("class", "light");
-//     a.classList.add(".a-dark"); }
-// })
-
 
 function showAlert() {
     alert("the website is under construction");
