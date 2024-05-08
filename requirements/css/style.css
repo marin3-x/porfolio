@@ -19,13 +19,13 @@ a{
     z-index: 90;
     display: flex;
     align-items: center;
-    /* text-align: center; */
     justify-content: center;
     color:var(--theme);
-    font-size:2vw;
+    font-size:30px;
 }
 #loader h3{
     margin:2px;
+    text-transform: capitalize;
 }
 
 .color{
